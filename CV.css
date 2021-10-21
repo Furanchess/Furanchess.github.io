@@ -1,0 +1,52 @@
+body{
+    background-image: url('images/molang.jpg');
+    background-size: cover;
+    font-family: Helvetica;
+}
+
+.texts{
+    color: #332421;
+    background-color: rgba(250, 246, 246, 0.6);
+    font-size:  24px;
+}
+
+.header{
+    color: rgb(46, 139, 87);
+}
+
+.footer
+{
+    background-color: #FFEFDB;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.footer .input
+{
+    float: left;
+    width: 250%;
+    padding: 50px;
+    height: 230px;
+}
+
+input[type=text], textarea 
+{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #F5F5F5;
+}
+
+.button
+{
+    background-color: #836953 ;
+    border: solid 1px #313131;
+    color: white;
+    font-family: helvetica;
+    width: 200px;
+    height: 34px;
+    cursor: pointer;
+}
